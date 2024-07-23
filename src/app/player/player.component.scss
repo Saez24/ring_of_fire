@@ -4,7 +4,7 @@
     border-bottom-left-radius: 50px;
     display: flex;
     align-items: center;
-    background-color: orange;
+    background-color: rgba(100, 100, 100, 0.7);
 
     >span {
         font-size: 32px;
@@ -18,4 +18,8 @@
         object-fit: cover;
         border-radius: 100%;
     }
+}
+
+.player-active {
+    background-color: orange !important;
 }
